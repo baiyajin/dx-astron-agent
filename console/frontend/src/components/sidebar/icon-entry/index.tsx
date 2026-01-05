@@ -24,7 +24,7 @@ const IconEntry: React.FC<IconEntryProps> = ({
 
   const handleDocumentClick = () => {
     window.open(
-      'https://www.xfyun.cn/doc/spark/Agent01-%E5%B9%B3%E5%8F%B0%E4%BB%8B%E7%BB%8D.html'
+      'https://ai.uzztong.com/'
     );
   };
 
