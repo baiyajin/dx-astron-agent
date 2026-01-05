@@ -1,0 +1,446 @@
+# ============================================================================
+# Astron Agent - .gitignore
+# ============================================================================
+
+# ============================================================================
+# 操作系统文件
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# IDE 和编辑器
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================================================
+# Node.js / Frontend (React/TypeScript/Vite)
+# ============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# 构建输出
+dist/
+dist-ssr/
+build/
+*.local
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# 编辑器目录和文件
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite
+.vite/
+vite.config.*.timestamp-*
+
+# 测试覆盖率
+coverage/
+*.lcov
+.nyc_output/
+
+# 类型检查
+*.tsbuildinfo
+
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================================================
+# Java / Maven / Gradle
+# ============================================================================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ============================================================================
+# Go
+# ============================================================================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# ============================================================================
+# Docker
+# ============================================================================
+# Docker volumes and data
+docker/**/data/
+docker/**/logs/
+docker/**/*_data/
+docker/**/*_logs/
+
+# Docker compose override files (may contain sensitive data)
+docker-compose.override.yml
+docker-compose.local.yml
+*.env.local
+
+# ============================================================================
+# 数据库
+# ============================================================================
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Database dumps
+*.sql
+*.dump
+
+# ============================================================================
+# 日志文件
+# ============================================================================
+*.log
+logs/
+*.log.*
+log/
+
+# ============================================================================
+# 临时文件和缓存
+# ============================================================================
+*.tmp
+*.temp
+*.cache
+.cache/
+tmp/
+temp/
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# 配置文件（包含敏感信息）
+# ============================================================================
+# 环境变量文件
+.env
+.env.*
+!.env.example
+!.env.template
+
+# 配置文件（可能包含敏感信息）
+config/local.*
+config/*.local.*
+*.local.yaml
+*.local.yml
+*.local.json
+*.local.toml
+
+# 密钥和证书
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+secrets/
+.secrets/
+
+# ============================================================================
+# 构建和部署
+# ============================================================================
+# 构建产物
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# 部署脚本生成的文件
+deploy/*.sh.local
+
+# ============================================================================
+# 测试和覆盖率
+# ============================================================================
+# 测试覆盖率报告
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+*.cover
+
+# 测试输出
+test-results/
+test-output/
+
+# ============================================================================
+# 文档生成
+# ============================================================================
+# 生成的文档
+docs/_build/
+docs/.doctrees/
+site/
+
+# ============================================================================
+# 其他
+# ============================================================================
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 系统文件
+.directory
+.Trash-*
+
+# 项目特定
+backend-old/
+frontend-old/
+
+xl.meta
