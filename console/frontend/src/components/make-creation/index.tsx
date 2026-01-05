@@ -86,7 +86,7 @@ const MakeCreateModal: React.FC<MakeCreateModalProps> = ({
     return starModelList.filter(item => item.bot_id !== AI_RECORD_BOT_ID);
   }, [isDefaultPersonalSpace, starModelList]);
 
-  // 获取星辰模板
+  // 获取动悉模板
   const getStarTemplateList = async (id?: any) => {
     const params: { pageIndex: number; pageSize: number; groupId?: number } = {
       ...starTemplatePageInfo,
@@ -116,7 +116,7 @@ const MakeCreateModal: React.FC<MakeCreateModalProps> = ({
 
   useEffect(() => {
     getTemplateTypeList(); // 获取工作流模板分类
-    getStarTemplateList(); // 星辰模板
+    getStarTemplateList(); // 动悉模板
   }, []);
   //工作流创建分类
   const [activeTab, setActiveTab] = useState<any>(null);

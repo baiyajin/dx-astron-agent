@@ -200,7 +200,7 @@ export const cancelBindWx = (params: any) => {
   return http.post('/bot/offiaccount/unbind', params);
 };
 
-// 从星辰来的发布
+// 从动悉来的发布
 export const publish = (params: any) => {
   return http.post(`/u/bot/v2/publish`, params);
 };
@@ -328,11 +328,11 @@ export const createFromTemplate = (params: any) => {
   return http.post(`/workflow/bot/createFromTemplate`, params);
 };
 
-// 获取星辰模版
+// 获取动悉模版
 export const getStarTemplate = (params: any): Promise<any> => {
   return http.post(`/workflow/bot/templateList`, params);
 };
-// 获取星辰模版分类
+// 获取动悉模版分类
 export const getStarTemplateGroup = (): Promise<any> => {
   return http.get(`/workflow/bot/templateGroup`);
 };

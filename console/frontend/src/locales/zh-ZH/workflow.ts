@@ -606,7 +606,7 @@ const translation = {
     relatedKnowledgeModal: {
       title: '选择知识库',
       versionSelection: '版本选择',
-      xingchen: '星辰',
+      xingchen: '动悉',
       xingpu: '星火',
       personal: '个人版',
       createTime: '创建时间',

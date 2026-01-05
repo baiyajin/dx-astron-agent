@@ -144,7 +144,7 @@ const translation = {
     all: 'All',
     mostPopular: 'Most Popular',
     recentlyUsed: 'Recently Used',
-    xingchenAgentOfficial: 'Astra Agent Official',
+    xingchenAgentOfficial: 'Dongxi Agent Official',
     noPlugins: 'No Plugins',
     privacyStatement: 'Privacy Statement',
     developerStatement:

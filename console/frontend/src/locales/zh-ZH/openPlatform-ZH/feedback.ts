@@ -1,9 +1,9 @@
 const translation = {
   feedback: '意见反馈',
-  aboutModelOutput: '关于大模型输出内容的意见，请通过星辰Agent页面反馈',
+  aboutModelOutput: '关于大模型输出内容的意见，请通过动悉Agent页面反馈',
   aboutModelOutput2: '按钮来反馈，感谢您的支持~',
   title: '意见反馈',
-  feedbackTitle: '星辰大模型应用开发平台-意见反馈',
+  feedbackTitle: '动悉大模型应用开发平台-意见反馈',
   problemDesc: '问题描述',
   problemDescNotEmpty: '问题描述不能为空',
   problemDescLimit: '字数超出限制，最多输入200字',

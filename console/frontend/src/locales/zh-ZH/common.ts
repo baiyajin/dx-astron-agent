@@ -137,7 +137,7 @@ const translation = {
     all: '全部',
     mostPopular: '最受欢迎',
     recentlyUsed: '最近使用',
-    xingchenAgentOfficial: '星辰Agent官方',
+    xingchenAgentOfficial: '动悉Agent官方',
     noPlugins: '暂无插件',
     privacyStatement: '隐私声明',
     developerStatement:

@@ -374,7 +374,7 @@ class ISEParam:
 
 
 class ISEClient:
-    """讯飞星辰智能语音评测(ISE)客户端"""
+    """讯飞动悉智能语音评测(ISE)客户端"""
 
     def __init__(self, app_id: str, api_key: str, api_secret: str) -> None:
         self.app_id = app_id

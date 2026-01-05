@@ -378,7 +378,7 @@ export const zh = {
     teamEnterpriseEdition: '团队/企业版',
 
     // 品牌名称
-    xingchen: '星辰',
+    xingchen: '动悉',
   },
 
   // 空间管理相关

@@ -10,13 +10,13 @@
 
 </div>
 
-## 🔭 星辰 Agent 是什么
+## 🔭 动悉 Agent 是什么
 
-星辰Agent是一个**企业级、商业友好**的 Agentic Workflow开发平台，融合了 AI 工作流编排、模型管理、AI 与 MCP 工具集、RPA 自动化和团队空间等特性。
+动悉Agent是一个**企业级、商业友好**的 Agentic Workflow开发平台，融合了 AI 工作流编排、模型管理、AI 与 MCP 工具集、RPA 自动化和团队空间等特性。
 平台支持**高可用部署**，帮助企业快速构建**可规模化落地**的智能体应用，打造面向未来的 AI 基座。
 
-### 为什么选择 星辰 Agent？
-- **稳定可靠**：核心技术与[讯飞星辰Agent平台](https://agent.xfyun.cn)保持一致，具备企业级高可靠性，完整的高可用版本开源。
+### 为什么选择 动悉 Agent？
+- **稳定可靠**：核心技术与[讯飞动悉Agent平台](https://agent.xfyun.cn)保持一致，具备企业级高可靠性，完整的高可用版本开源。
 - **跨系统连接**：原生融合智能 RPA，高效打通企业内外部系统，实现 Agent 与企业系统互通。
 - **企业级开放生态**：深度适配多类行业模型与工具，支持自定义扩展，灵活支持多种企业场景。
 - **商业友好**：基于 Apache 2.0 协议开源，无任何商业限制，可自由商用使用。
@@ -90,9 +90,9 @@ docker compose -f docker-compose-with-auth.yaml up -d
 
 > 📖 完整的部署说明和配置详情，请查看[部署指南](DEPLOYMENT_GUIDE_WITH_AUTH_zh.md)
 
-## 📖 使用星辰Agent云服务
+## 📖 使用动悉Agent云服务
 
-**快速体验**：星辰Agent提供一个即开即用的云服务环境，用于创建和管理智能体。免费快速体验地址： [https://agent.xfyun.cn](https://agent.xfyun.cn)。
+**快速体验**：动悉Agent提供一个即开即用的云服务环境，用于创建和管理智能体。免费快速体验地址： [https://agent.xfyun.cn](https://agent.xfyun.cn)。
 
 **使用手册**：详细使用请参考 [快速开始](https://www.xfyun.cn/doc/spark/Agent03-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html)。
 

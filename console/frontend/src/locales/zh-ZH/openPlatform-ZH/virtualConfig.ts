@@ -56,7 +56,7 @@ const translation = {
     filterBySceneCartoonCharacter: '卡通形象',
     filterBySceneHistoricalFigures: '历史人物',
 
-    avatarPreviewText: '懂你所言，答你所问，我是你的讯飞星辰小助理',
+    avatarPreviewText: '懂你所言，答你所问，我是你的讯飞动悉小助理',
     avatarPreview: '形象展示',
     cancel: '取消',
     confirm: '使用',

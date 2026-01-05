@@ -17,7 +17,7 @@ const translation = {
   comboContrastEnterpriseVersion: '企业版',
   comboModal: {
     freeUse: '免费使用',
-    useAgent: '星辰Agent',
+    useAgent: '动悉Agent',
     orUpgrade: '或升级更高的套餐',
     comboList: '套餐列表',
   },

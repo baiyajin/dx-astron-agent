@@ -20,7 +20,7 @@ const LoginPop = (): ReactElement => {
         <img src={loginPopImg} alt="欢迎登录" />
         <div className={styles.loginPopIntro}>
           <h2>立即登录/注册，开启智能体创造之旅！</h2>
-          <p>来星辰，创建属于你的AI应用</p>
+          <p>来动悉，创建属于你的AI应用</p>
         </div>
         <div className={styles.loginPopUse} onClick={() => jumpToLogin()}>
           开始使用

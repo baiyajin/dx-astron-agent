@@ -243,7 +243,7 @@ const BotAnalysis = ({
             data: processedData.channelData.app,
           },
           {
-            name: '星辰广场',
+            name: '动悉广场',
             ...pre.series[2],
             data: processedData.channelData.plaza,
           },
@@ -285,7 +285,7 @@ const BotAnalysis = ({
             data: processedData.channelData.app,
           },
           {
-            name: '星辰广场',
+            name: '动悉广场',
             ...pre.series[2],
             data: processedData.channelData.plaza,
           },

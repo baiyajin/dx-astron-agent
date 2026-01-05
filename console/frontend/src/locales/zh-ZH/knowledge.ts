@@ -25,7 +25,7 @@ const translation = {
   xinghuoKnowledge: '星火知识库',
   xingpuDescription:
     '可整合多源异构知识数据自动采编，提供问答式检索，支持答案追溯，适用于企业场景。',
-  xingchenKnowledge: '星辰知识库',
+  xingchenKnowledge: '动悉知识库',
   xingchenDescription:
     '可整合多源异构知识数据自动采编，提供问答式检索，支持答案追溯，适用于轻量检索场景。',
   confirm: '确认',

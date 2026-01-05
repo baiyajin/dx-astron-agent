@@ -90,7 +90,7 @@ vim .env
 RAGFLOW_BASE_URL=http://localhost:18080
 RAGFLOW_API_TOKEN=ragflow-your-api-token-here
 RAGFLOW_TIMEOUT=60
-RAGFLOW_DEFAULT_GROUP=星辰知识库
+RAGFLOW_DEFAULT_GROUP=动悉知识库
 ```
 
 **获取 RagFlow API Token：**

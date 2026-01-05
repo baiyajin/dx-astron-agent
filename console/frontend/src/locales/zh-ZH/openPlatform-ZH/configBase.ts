@@ -97,7 +97,7 @@ const translation = {
     selectToAssociateTheDataset: '选择要关联的数据集',
     refresh: '刷新',
     personalVersion: '个人版',
-    stardust: '星辰',
+    stardust: '动悉',
     spark: '星火',
     character: '字符',
     youHaveNotCreatedAnyDatasets: '您还没有创建过数据集',

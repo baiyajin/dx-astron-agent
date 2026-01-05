@@ -39,7 +39,7 @@ export const mutiUserOption = {
         },
       },
       {
-        name: '星辰广场',
+        name: '动悉广场',
         textStyle: {
           color: '#7F7F7F',
           fontWeight: 500,
@@ -129,7 +129,7 @@ export const mutiUserOption = {
       data: [0, 0, 0, 0, 0, 0, 0],
     },
     {
-      name: '星辰广场',
+      name: '动悉广场',
       type: 'line',
       stack: '总量',
       showSymbol: false,
@@ -195,7 +195,7 @@ export const mutiSessionOption = {
         },
       },
       {
-        name: '星辰广场',
+        name: '动悉广场',
         textStyle: {
           color: '#7F7F7F',
           fontWeight: 500,
@@ -285,7 +285,7 @@ export const mutiSessionOption = {
       data: [0, 0, 0, 0, 0, 0, 0],
     },
     {
-      name: '星辰广场',
+      name: '动悉广场',
       type: 'line',
       stack: '总量',
       showSymbol: false,
@@ -580,7 +580,7 @@ export const processChannelData = (data: any) => {
     h5: new Array(uniqueDates.length).fill(0), // H5 (channel=2)
     mini: new Array(uniqueDates.length).fill(0), // 小程序 (channel=3)
     app: new Array(uniqueDates.length).fill(0), // 星火App (channel=4,5,6)
-    plaza: new Array(uniqueDates.length).fill(0), // 星辰广场 (channel=11)
+    plaza: new Array(uniqueDates.length).fill(0), // 动悉广场 (channel=11)
   };
 
   // 3. 填充数据
