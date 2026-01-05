@@ -443,4 +443,25 @@ site/
 backend-old/
 frontend-old/
 
-xl.meta
+# ============================================================================
+# Docker
+# ============================================================================
+# Docker volumes and data
+docker/**/data/
+docker/**/logs/
+docker/**/*_data/
+docker/**/*_logs/
+
+# MinIO 内部系统文件（对象存储元数据）
+**/.minio.sys/
+**/.minio.sys/**
+*.xl.meta
+**/xl.meta
+**/.bloomcycle.bin
+**/.bloomcycle.bin/**
+**/.minio/
+
+# Docker compose override files (may contain sensitive data)
+docker-compose.override.yml
+docker-compose.local.yml
+*.env.local
