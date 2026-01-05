@@ -150,7 +150,7 @@ const translation = {
     developerStatement:
       'Developer Statement: This plugin will not collect or transmit end-user personal information during use',
     pluginDetails: 'Plugin Details',
-    xingchenOfficial: 'Astra Official',
+    xingchenOfficial: 'Dongxi Official',
     references: 'References',
     favorites: 'Favorites',
     botReferences: 'Bot References',

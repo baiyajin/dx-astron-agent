@@ -143,7 +143,7 @@ const translation = {
     developerStatement:
       '开发者声明：该插件在使用过程中不会收集、传输终端用户的个人信息',
     pluginDetails: '插件详情',
-    xingchenOfficial: '星辰官方',
+    xingchenOfficial: '动悉官方',
     references: '引用',
     favorites: '收藏',
     botReferences: 'Bot引用数',
