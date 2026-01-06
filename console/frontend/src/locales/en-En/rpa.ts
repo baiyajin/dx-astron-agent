@@ -37,4 +37,38 @@ const translation = {
   noAccount: 'No {{platform}} account',
 };
 
+// RPA Platform Management Translation
+export const platformTranslation = {
+  title: 'RPA Platform Management',
+  create: 'Create Platform',
+  edit: 'Edit',
+  delete: 'Delete',
+  id: 'ID',
+  name: 'Platform Name',
+  category: 'Category',
+  icon: 'Icon',
+  path: 'Website URL',
+  remarks: 'Remarks',
+  createTime: 'Create Time',
+  updateTime: 'Update Time',
+  operation: 'Operation',
+  deleteConfirm: 'Are you sure to delete this platform?',
+  deleteSuccess: 'Delete successful',
+  deleteFailed: 'Delete failed',
+  createSuccess: 'Create successful',
+  updateSuccess: 'Update successful',
+  saveFailed: 'Save failed',
+  searchPlaceholder: 'Search platform name',
+  nameRequired: 'Please enter platform name',
+  namePlaceholder: 'Please enter platform name, e.g.: Dongxi RPA',
+  categoryPlaceholder: 'Please enter category',
+  value: 'Field Configuration (JSON)',
+  valuePlaceholder: 'Please enter JSON format field configuration, e.g.:\n[\n  {\n    "key": "API KEY",\n    "name": "apiKey",\n    "required": true,\n    "desc": "Please enter API KEY"\n  }\n]',
+  iconPlaceholder: 'Please enter icon URL',
+  pathPlaceholder: 'Please enter website URL, e.g.: https://example.com',
+  remarksPlaceholder: 'Please enter remarks',
+  invalidJson: 'Invalid JSON format, please check',
+  total: 'Total {total} items',
+};
+
 export default translation;

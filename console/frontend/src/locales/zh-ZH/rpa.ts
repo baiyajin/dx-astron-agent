@@ -37,4 +37,38 @@ const translation = {
   noAccount: '暂无{{platform}}账号',
 };
 
+// RPA平台管理翻译
+export const platformTranslation = {
+  title: 'RPA平台管理',
+  create: '新建平台',
+  edit: '编辑',
+  delete: '删除',
+  id: 'ID',
+  name: '平台名称',
+  category: '分类',
+  icon: '图标',
+  path: '官网地址',
+  remarks: '备注',
+  createTime: '创建时间',
+  updateTime: '更新时间',
+  operation: '操作',
+  deleteConfirm: '确定删除该平台吗？',
+  deleteSuccess: '删除成功',
+  deleteFailed: '删除失败',
+  createSuccess: '创建成功',
+  updateSuccess: '更新成功',
+  saveFailed: '保存失败',
+  searchPlaceholder: '搜索平台名称',
+  nameRequired: '请输入平台名称',
+  namePlaceholder: '请输入平台名称，如：动悉RPA',
+  categoryPlaceholder: '请输入分类',
+  value: '字段配置（JSON）',
+  valuePlaceholder: '请输入JSON格式的字段配置，例如：\n[\n  {\n    "key": "API KEY",\n    "name": "apiKey",\n    "required": true,\n    "desc": "请输入API KEY"\n  }\n]',
+  iconPlaceholder: '请输入图标URL',
+  pathPlaceholder: '请输入官网地址，如：https://example.com',
+  remarksPlaceholder: '请输入备注信息',
+  invalidJson: 'JSON格式无效，请检查',
+  total: '共 {total} 条',
+};
+
 export default translation;

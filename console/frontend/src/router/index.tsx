@@ -32,6 +32,7 @@ const ReleaseManagement = lazy(() => import('@/pages/release-management'));
 const BotApi = lazy(() => import('@/pages/bot-api/api'));
 const SharePage = lazy(() => import('@/pages/share-page'));
 const AppListPage = lazy(() => import('@/pages/bot-api/app-list'));
+const PlatformManagement = lazy(() => import('@/pages/platform-management'));
 
 const routes = [
   {
@@ -100,6 +101,14 @@ const routes = [
         element: (
           <Suspense fallback={<Loading />}>
             <ResourceManagement />
+          </Suspense>
+        ),
+      },
+      {
+        path: '/platform',
+        element: (
+          <Suspense fallback={<Loading />}>
+            <PlatformManagement />
           </Suspense>
         ),
       },

@@ -6,8 +6,10 @@ import com.iflytek.astron.console.toolkit.entity.dto.rpa.StartReq;
 import com.iflytek.astron.console.toolkit.entity.table.tool.RpaInfo;
 import com.iflytek.astron.console.toolkit.entity.table.tool.RpaUserAssistant;
 import com.iflytek.astron.console.toolkit.entity.tool.CreateRpaAssistantReq;
+import com.iflytek.astron.console.toolkit.entity.tool.CreateRpaInfoReq;
 import com.iflytek.astron.console.toolkit.entity.tool.RpaAssistantResp;
 import com.iflytek.astron.console.toolkit.entity.tool.UpdateRpaAssistantReq;
+import com.iflytek.astron.console.toolkit.entity.tool.UpdateRpaInfoReq;
 import com.iflytek.astron.console.toolkit.handler.UserInfoManagerHandler;
 import com.iflytek.astron.console.toolkit.service.tool.*;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -52,6 +54,47 @@ public class RpaController {
     @GetMapping("/source/list")
     public ApiResult<List<RpaInfo>> list() {
         return ApiResult.success(rpaInfoService.list());
+    }
+
+    /**
+     * Create a new RPA platform.
+     *
+     * @param req creation request body; must pass bean validation
+     * @return created platform info
+     * @throws org.springframework.web.bind.MethodArgumentNotValidException if validation fails
+     * @throws com.iflytek.astron.console.commons.exception.BusinessException for business-rule violations
+     */
+    @PostMapping("/source")
+    public ApiResult<RpaInfo> createSource(@RequestBody @Validated CreateRpaInfoReq req) {
+        return ApiResult.success(rpaInfoService.create(req));
+    }
+
+    /**
+     * Update an existing RPA platform.
+     *
+     * @param id  platform primary key
+     * @param req update request body; must pass bean validation
+     * @return updated platform info
+     * @throws org.springframework.web.bind.MethodArgumentNotValidException if validation fails
+     * @throws com.iflytek.astron.console.commons.exception.BusinessException if the platform does not exist
+     */
+    @PutMapping("/source/{id}")
+    public ApiResult<RpaInfo> updateSource(
+            @PathVariable("id") Long id,
+            @RequestBody @Validated UpdateRpaInfoReq req) {
+        return ApiResult.success(rpaInfoService.update(id, req));
+    }
+
+    /**
+     * Delete (soft delete) an RPA platform by id.
+     *
+     * @param id platform primary key
+     * @throws com.iflytek.astron.console.commons.exception.BusinessException if the platform does not exist
+     */
+    @DeleteMapping("/source/{id}")
+    public ApiResult<Void> deleteSource(@PathVariable("id") Long id) {
+        rpaInfoService.delete(id);
+        return ApiResult.success(null);
     }
 
     /**
