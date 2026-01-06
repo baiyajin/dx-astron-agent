@@ -28,6 +28,9 @@ interface OrderType {
 
 /** ## 订单类型展示组件 */
 const OrderTypeDisplay: React.FC<OrderTypeDisplayProps> = ({ onClose }) => {
+  // 移除升级按钮：直接返回 null
+  return null;
+  
   const navigate = useNavigate();
   const { joinedEnterpriseList } = useEnterpriseStore();
   // 判断joinedEnterpriseList中是否有serviceType为3的企业
