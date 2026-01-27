@@ -321,7 +321,8 @@ services:
       - astron-agent-network
 
   robot-service:
-    image: ghcr.io/iflytek/astron-rpa/robot-service:latest
+    # image: ghcr.io/iflytek/astron-rpa/robot-service:latest
+    image: astron-rpa/robot-service:local # 使用本地构建
     container_name: rpa-opensource-robot-service
     restart: always
     environment:
